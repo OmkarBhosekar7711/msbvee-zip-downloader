@@ -15,7 +15,7 @@ def format_file(filename):
     file_name = whitespace_to_underscore.lower() # lower case 
     return file_name
 
-def does_exists(filename):
+def does_not_exists(filename):
     file = path / filename
     if not file.exists():
         return True
@@ -34,9 +34,9 @@ for url in res:
     if url.endswith('.zip'):
         file_name = wget.detect_filename(url)
         file = format_file(file_name)
-        exists = does_exists(file)
+        file_not_exists = does_not_exists(file)
         size = get_file_size(url)
-        if exists:
+        if file_not_exists:
             ask = input(f"Size of [{file}] is [~={size} mb] do you wish to continue? (y/n) default(y): ") or 'y'
             print(ask)
             if ask == 'y':

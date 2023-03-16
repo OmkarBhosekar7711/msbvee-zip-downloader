@@ -11,8 +11,8 @@ python3 msbvee-zip-downloader.py<br>
 
 <br>
 
-# WHAT HAPPENS ?
-requests MSBVEE
-collects zip files
-prompts for larger downloads (> 30mb)
-download zip files
+# WHAT HAPPENS ?<br>
+requests MSBVEE<br>
+collects zip files<br>
+prompts for larger downloads (> 30mb)<br>
+download zip files<br>

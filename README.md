@@ -5,10 +5,10 @@ Downloads zip files from [MSBVEE](http://www.msbve.gov.in/msbve/html/samplepaper
 
 # HOW TO ?
 <br>
-`
-pip insatll -r requirements.txt
-python3 msbvee-zip-downloader.py
-`
+
+pip insatll -r requirements.txt<br>
+python3 msbvee-zip-downloader.py<br>
+
 <br>
 
 # WHAT HAPPENS ?
